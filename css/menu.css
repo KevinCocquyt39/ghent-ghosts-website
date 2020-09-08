@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
+    background: rgba(160, 160, 160, 0.5);
+    padding: 45px 0;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+    header .title {
+        font-family: Graduate, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 6em;
+        text-shadow: 2px 2px #000;
+        line-height: 60px;
+    }
+
+    header .sub-title {
+        font-size: 2em;
+        color: #00A0DF;
+        text-shadow: 1px 1px #000;
+    }
+
+.menu-buttons ul li {
+    background: #00a0df;
+    background: rgba(0, 160, 223, 0.8);
+    border: 1px solid silver;
+}
+
+    .menu-buttons ul li a {
+        color: #fff;
+        font-size: 1.5em;
+        font-weight: 700;
+        display: block;
+    }
+
+        .menu-buttons ul li a:hover {
+            background-color: #00a0df;
+            cursor: pointer;
+        }
+
+    .menu-buttons ul li.menu-alt {
+        color: #fff;
+        background: #868686;
+        background: rgba(134, 134, 134, 0.8);
+        border: 1px solid silver;
+    }
+
+        .menu-buttons ul li.menu-alt a:hover {
+            background: #868686;
+        }

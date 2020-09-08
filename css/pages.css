@@ -1,0 +1,459 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+p, ul li, ol li {
+    line-height: 25px;
+}
+
+/* bootstrap */
+
+.well
+{
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.btn {
+    font-size: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0;
+}
+
+.h4, h4 {
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 0;
+    }
+    
+}
+
+/* header */
+
+header {
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+
+header .main-header {
+    height: 125px;
+}
+
+header .navbar {
+    margin-bottom: 0;
+}
+
+header .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+header, header .navbar-default, header .navbar-header {
+    border:none;
+}
+
+header .navbar-brand{
+    float: none;
+    padding: 0;
+}
+
+header .navbar-default .navbar-toggle{
+    border: none;
+}
+
+    header .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+        header .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: transparent;
+        }
+
+header .navbar-title{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+/* footer */
+
+footer {
+    color: #fff;
+    font-size: 1.2em;
+    /*line-height: 50px;*/
+    min-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer .link-settings {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    color: rgba(0,0,0,0.1);
+}
+
+footer .link-settings:hover {
+    color: rgba(0,0,0,0.5);
+}
+
+footer .link-settings .fa {
+    font-size: 30px;
+}
+
+/* content */
+
+.main-content .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* google */
+
+.google-map {
+    width: 100%;
+}
+
+/* team */
+
+#retired img {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.profile-card {
+    position: relative;
+    border: 1px solid silver;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+    .profile-card:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+    .profile-card .image {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .profile-card .icon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .profile-card hr {
+        margin: 5px 0;
+    }
+
+    .profile-card .social-icons div, .profile-card .social-icons a {
+        float: left;
+    }
+
+.profile-name {
+    font-size: 0.95em;
+    font-weight: bold;
+    margin-left: 5px;
+    width: 210px;
+}
+
+.profile-title {
+    color: grey;
+    font-size: 0.7em;
+    margin-left: 5px;
+    height: 23px;
+}
+
+/* badges */
+
+.profile-card .position-icons {
+    position: relative;
+    margin-right: 5px;
+}
+
+    .profile-card .position-icons .position-badge {
+        float: left;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #858585;
+        -moz-border-radius: 90px;
+        -webkit-border-radius: 90px;
+        border-radius: 90px;
+        /* gradient */
+        background: #b53d3e; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #b53d3e 0%, #8b0708 50%, #b53d3e 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#b53d3e), color-stop(50%,#8b0708), color-stop(100%,#b53d3e)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(-45deg, #b53d3e 0%,#8b0708 50%,#b53d3e 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(-45deg, #b53d3e 0%,#8b0708 50%,#b53d3e 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(-45deg, #b53d3e 0%,#8b0708 50%,#b53d3e 100%); /* IE10+ */
+        background: linear-gradient(135deg, #b53d3e 0%,#8b0708 50%,#b53d3e 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b53d3e', endColorstr='#b53d3e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+
+    .profile-card .position-icons span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-family: Graduate, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        -ms-text-shadow: -1px 0 #858585, 0 1px #858585, 1px 0 #858585, 0 -1px #858585;
+        text-shadow: -1px 0 #858585, 0 1px #858585, 1px 0 #858585, 0 -1px #858585;
+        color: #fff;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+.profile-card .number-icons {
+    position: relative;
+    margin-left: 5px;
+}
+
+    .profile-card .number-icons .number-badge {
+        float: left;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #858585;
+        -moz-border-radius: 90px;
+        -webkit-border-radius: 90px;
+        border-radius: 90px;
+        /* gradient */
+        background: #4091b9; /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #4091b9 0%, #065c88 50%, #4091b9 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#4091b9), color-stop(50%,#065c88), color-stop(100%,#bce0ee)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(-45deg, #4091b9 0%,#065c88 50%,#4091b9 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(-45deg, #4091b9 0%,#065c88 50%,#4091b9 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(-45deg, #4091b9 0%,#065c88 50%,#4091b9 100%); /* IE10+ */
+        background: linear-gradient(135deg, #4091b9 0%,#065c88 50%,#4091b9 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4091b9', endColorstr='#4091b9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+
+    .profile-card .number-icons span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-family: Graduate, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-shadow: -1px 0 #858585, 0 1px #858585, 1px 0 #858585, 0 -1px #858585;
+        color: #fff;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+/* nhl */
+
+.profile-card .nhl-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url('../../img/profiles/teams/sprites.png');
+    width: 40px;
+    height: 20px;
+}
+
+    .profile-card .nhl-logo.njd {
+        background-position: 0 0;
+    }
+
+    .profile-card .nhl-logo.nyi {
+        background-position: 0 -20px;
+    }
+
+    .profile-card .nhl-logo.nyr {
+        background-position: 0 -40px;
+    }
+
+    .profile-card .nhl-logo.phi {
+        background-position: 0 -60px;
+    }
+
+    .profile-card .nhl-logo.pit {
+        background-position: 0 -80px;
+    }
+
+    .profile-card .nhl-logo.bos {
+        background-position: 0 -100px;
+    }
+
+    .profile-card .nhl-logo.buf {
+        background-position: 0 -120px;
+    }
+
+    .profile-card .nhl-logo.mon {
+        background-position: 0 -140px;
+    }
+
+    .profile-card .nhl-logo.ott {
+        background-position: 0 -160px;
+    }
+
+    .profile-card .nhl-logo.tor {
+        background-position: 0 -180px;
+    }
+
+    .profile-card .nhl-logo.atl {
+        background-position: 0 -200px;
+    }
+
+    .profile-card .nhl-logo.car {
+        background-position: 0 -220px;
+    }
+
+    .profile-card .nhl-logo.fla {
+        background-position: 0 -240px;
+    }
+
+    .profile-card .nhl-logo.tbl {
+        background-position: 0 -260px;
+    }
+
+    .profile-card .nhl-logo.wsh {
+        background-position: 0 -280px;
+    }
+
+    .profile-card .nhl-logo.chi {
+        background-position: 0 -300px;
+    }
+
+    .profile-card .nhl-logo.det {
+        background-position: 0 -320px;
+    }
+
+    .profile-card .nhl-logo.nsh {
+        background-position: 0 -340px;
+    }
+
+    .profile-card .nhl-logo.stl {
+        background-position: 0 -360px;
+    }
+
+    .profile-card .nhl-logo.cal {
+        background-position: 0 -380px;
+    }
+
+    .profile-card .nhl-logo.col {
+        background-position: 0 -400px;
+    }
+
+    .profile-card .nhl-logo.edm {
+        background-position: 0 -420px;
+    }
+
+    .profile-card .nhl-logo.van {
+        background-position: 0 -440px;
+    }
+
+    .profile-card .nhl-logo.ana {
+        background-position: 0 -460px;
+    }
+
+    .profile-card .nhl-logo.dal {
+        background-position: 0 -480px;
+    }
+
+    .profile-card .nhl-logo.lak {
+        background-position: 0 -500px;
+    }
+
+    .profile-card .nhl-logo.phx {
+        background-position: 0 -520px;
+    }
+
+    .profile-card .nhl-logo.sjs {
+        background-position: 0 -540px;
+    }
+
+    .profile-card .nhl-logo.cbj {
+        background-position: 0 -560px;
+    }
+
+    .profile-card .nhl-logo.min {
+        background-position: 0 -580px;
+    }
+
+    .profile-card .nhl-logo.wpg {
+        background-position: 0 -600px;
+    }
+
+/* social */
+
+.social-icons img {
+    margin: 4px 0 0 6px;
+}
+
+/* spinner */
+
+.spinner {
+  margin: 100px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}

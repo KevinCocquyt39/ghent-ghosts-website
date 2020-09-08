@@ -1,0 +1,61 @@
+/* 
+    main color : #00a0df
+    light color : #3eb6e6
+*/
+
+/* bootstrap */
+
+.well
+{
+    background-color: #3eb6e6;
+}
+
+.btn-primary {
+    background-color: #3eb6e6;
+    border-color: #00a0df;
+}
+
+.btn-primary:hover {
+    background-color: #00a0df;
+    border-color: #00a0df;
+}
+
+/* header */
+
+header .main-header {
+    background: url('/img/banner-ghosts-w1170.png') no-repeat center;
+}
+
+@media (max-width: 1200px) {
+
+    header .main-header {
+        background: url('/img/banner-ghosts-w960.png') no-repeat center;
+    }
+    
+}
+
+header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:focus, header .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #3eb6e6;
+    color: #fff;
+}
+
+header, header .navbar-default, header .navbar-header {
+    background-color: #00a0df;
+}
+
+/* footer */
+
+footer{
+    background-color: #00a0df;
+}
+
+/* references */
+
+.references > div {
+    padding: 20px 60px;
+}
+
+.references img {
+    max-height: 100px;
+    margin: 0 auto;
+}

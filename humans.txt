@@ -1,0 +1,21 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
+
+# TEAM
+
+    Kevin Cocquyt -- Web Developer -- @kevincocquyt39
+	Ief Carels -- President
+	Kenny Vande Walle -- Financial advisor
+	Jeffrey Vanhaeren -- Head coach
+
+
+# THANKS
+
+    Vicky Peck
+
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, Bootstrap, jQuery, Modernizr, Knockout
